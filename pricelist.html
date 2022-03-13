@@ -129,6 +129,7 @@
   $(document).ready(function(){
     $('.spinner-grow').show();
     $('.well').hide();
+	$('#pricelisttable').dataTable();
 
 	var data;
 	$.ajax({
@@ -143,7 +144,7 @@
 	});
 	
 	function generateHtmlTable(data) {
-		var html = '<table  id ="pricelist" class="table table-hover display table">';
+		var html = '<table id="pricelisttable" class="table table-hover display table">';
 
       if(typeof(data[0]) === 'undefined') {
         return null;
@@ -179,6 +180,5 @@
         $('.well').show();
 	  }
 	}
-	$('#pricelist').dataTable();
   });
 </script>
