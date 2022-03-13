@@ -76,7 +76,7 @@
 						<span class="sr-only">Loading...</span>
 					</div>
 					<div class="well">
-						<table id="real">
+						<!-- <table id="real">
 							<thead>
 								<th>1212</th>
 							</thead>
@@ -85,7 +85,7 @@
 									<th>3424</th>
 								</tr>
 							</tbody>
-						</table>
+						</table> -->
 						<div class="table-responsive price-list-table" id="csv-display">
 						</div>	
 				</div>
@@ -139,7 +139,7 @@
   $(document).ready(function(){
     $('.spinner-grow').show();
     $('.well').hide();
-	$('#real').dataTable();
+	$('.price-list-table').dataTable();
 
 	var data;
 	$.ajax({
@@ -154,7 +154,7 @@
 	});
 	
 	function generateHtmlTable(data) {
-		var html = '<table id="pricelisttable" class="table table-hover display table">';
+		var html = '<table id="pricelisttable" class="table table-hover display table price-list-table">';
 
       if(typeof(data[0]) === 'undefined') {
         return null;
