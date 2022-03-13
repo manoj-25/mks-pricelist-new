@@ -76,6 +76,16 @@
 						<span class="sr-only">Loading...</span>
 					</div>
 					<div class="well">
+						<table id="real">
+							<thead>
+								<th>1212</th>
+							</thead>
+							<tbody>
+								<tr>
+									<th>3424</th>
+								</tr>
+							</tbody>
+						</table>
 						<div class="table-responsive price-list-table" id="csv-display">
 						</div>	
 				</div>
@@ -129,7 +139,7 @@
   $(document).ready(function(){
     $('.spinner-grow').show();
     $('.well').hide();
-	$('#pricelisttable').dataTable();
+	$('#csv-display').dataTable();
 
 	var data;
 	$.ajax({
