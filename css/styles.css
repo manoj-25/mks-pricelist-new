@@ -107,20 +107,44 @@ select {
   border-radius: 3px;
   padding: 2px 5px 2px 5px;
 }
-.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+.page-item.active .page-link {
   color: #fff !important;
   border: 0px;
   background: #ed8824;
   border-radius: 2px;
 }
-.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.page-link:hover {
   color: #fff !important;
   border: 0px;
   background: #ed8824;
   border-radius: 2px;
 }
-.dataTables_wrapper .dataTables_paginate .paginate_button {
+.page-link {
+  color: #505c55;
+}
+.page-link {
+  min-width: 33px;
+  text-align: center;
+}
+.page-link:focus {
+  z-index: 3;
+  color: #505c55;
+  background-color: #e9ecef;
+  outline: 0;
+  box-shadow: none;
+}
+.page-item:not(:first-child) .page-link {
+  margin: 0px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button,
+.page-link {
   border: 0px;
+  /* margin-right: 2px; */
+}
+.table>:not(caption)>*>* {
+  border-bottom-width: 1px !important;
 }
 .text-green {
   color: #62bf43;
