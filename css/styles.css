@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Newsreader:wght@600&family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #505c55;
+}
+a {
+  color: #505c55;
+  text-decoration: none;
+}
+a:hover {
+  color: #505c55;
+}
+/* h1, h2,h3,h4,h5,h6 {
+  font-family: 'Newsreader', serif;
+} */
+ul {
+  list-style: none;
+}
+h2 {
+  font-weight: bold;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.line-height-28 {
+  line-height: 28px;
+}
+.aboutMKS .met-sm-2 {
+  padding-left: 110px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.mks-check {
+  background-image: url('../assets/img/check.png');
+  width: 24px !important;
+  height: 27px !important;
+  background-size: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+  background-repeat: no-repeat;
+}
+.mks-slider .banner-bg-img1 .col-lg-7 {
+  width: 730px;
+}
+.free-shipping {
+  letter-spacing: 3px;
+  font-size: 18px;
+  display: inline-block;
+  background: rgb(255 255 255 / 20%);
+  padding: 7px 15px 7px 15px;
+  border-radius: 4px;
+}
+.banner-title-sec {
+  font-weight: 300;
+  font-size: 29px;
+  background: #62bf43;
+  padding: 0px 10px 0px 10px;
+}
+.banner-btn {
+  font-size: 30px !important;
+    font-weight: 600;
+    padding: 7px 20px 7px 20px !important;
+}
+.banner-bg-img1 { 
+  min-height: 700px;
+  background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 70% !important;
+}
+.banner-bg-img1 {
+  background: url('../assets/img/banner1.png'); 
+}
+.mks-shipping-icon {
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+@media (max-width: 992px) {
+  .banner-bg-img1 {
+    background: url('../assets/img/banner1-mobile.png'); 
+    background-position: 45% !important;
+  }
+}
+@media (min-width: 993px) and (max-width: 1380px) {
+  .banner-bg-img1 {
+    background: url('../assets/img/banner1-ipad.png'); 
+  }
+}
+[type=search] {
+  outline-offset: 0px;
+  -webkit-appearance: textfield;
+}
+input[type="search"] {
+  padding: 7px 15px 7px 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+select {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 2px 5px 2px 5px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #fff !important;
+  border: 0px;
+  background: #ed8824;
+  border-radius: 2px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: #fff !important;
+  border: 0px;
+  background: #ed8824;
+  border-radius: 2px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  border: 0px;
+}
+.text-green {
+  color: #62bf43;
+}
+.text-orange {
+  color: #ee8621;
+}
+.bg-green {
+  background: #62bf43;
+}
+.bg-orange {
+  background: #ee8621;
+}
+.shadow-sm {
+  box-shadow: 2px 3px 4.7px 0.3px rgb(92 89 143 / 20%) !important;
+}
+.btn {
+  cursor: pointer;
+  letter-spacing: .03em;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px !important;
+}
+.btn-primary,
+.btn-primary:focus,
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+  color: #fff !important;
+  background-color: #62bf43 !important;
+  border-color: #62bf43 !important;
+}
+.btn-primary,
+.btn-primary:focus,
+.btn-check:focus+.btn-primary, .btn-primary:focus.btn-primary:hover,
+.btn-primary:active,
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.btn-primary:hover,
+.btn-primary:active {
+  color: #fff !important;
+  background-color: #4a9532 !important;
+  border-color: #4a9532 !important;
+}
+#mainNav {
+  background-color: #fff;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand img {
+  vertical-align: text-top;
+  padding-bottom: 12px;
+}
+.horizontalMenu .horizontalMenu-list > li > a.active {
+  font-weight: 700;
+}
+.horizontalMenu .horizontalMenu-list > li > a.active,
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #62bf43 !important;
+}
+.horizontalMenu .horizontalMenu-list>li {
+  text-align: center;
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.horizontalMenu .horizontalMenu-list>li>a {
+  display: block;
+  padding: 12px 10px 10px 10px !important;
+  text-decoration: none;
+  position: relative;
+  margin: 0 2px;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+}
+.horizontalMenu .horizontalMenu-list>li>a.btn-primary {
+  padding: 10px 20px 10px 20px !important;
+}
+.horizontalMenu-list li a.btn-primary {
+  color: #fff !important;
+  font-weight: 700;
+}
+.horizontalMenu-list li a {
+  color: #505c55 !important;
+}
+.section-padding {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+.font-size-45{
+  font-size: 45px;
+}
+.font-size-80 {
+  font-size: 80px;
+}
+.banner-title {
+  font-weight: 600;
+}
+.ordernowgrocery a {
+  border-radius: 50%;
+  padding: 40px 20px 40px 20px;
+  background: #61bf43;
+  color: #fff;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  width: 220px;
+  display: block;
+  word-break: break-all;
+}
+.ordermks div {
+  background: #505c55;
+  color: #fff;
+  font-style: italic;
+  padding: 15px;
+  font-size: 40px;
+}
+.ordernowgrocery {
+  position: absolute;
+  top: -10px;
+  left: 265px;
+}
+.doordeliveryMKS .col-lg-6 {
+  position: relative;
+}
+/*about*/
+.delivery-location span {
+  font-size: 22px;
+  padding-right: 35px;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.delivery-location img {
+  max-width: 24px;
+  padding-right: 0px;
+  vertical-align: text-top;
+}
+.whatsappMKS {
+  background: url('../assets/img/whatsapp.jpg') center top;
+  background-repeat: no-repeat;
+}
+.whatsappMKS-title {
+  font-size: 54px;
+}
+.whatsappMKS hr {
+  width: 240px;
+  height: 2px;
+  opacity: 1;
+  margin-top: 25px;
+}
+.whatsappMKS-para {
+  font-size: 73px;
+  font-weight: bold;
+  line-height: 66px;
+}
+.whatsappMKS-list {
+  font-weight: bold;
+  font-size: 24px;
+}
+.whatsapp-call a {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+}
+.whatsapp-call p {
+  text-align: right;
+  font-size: 40px;
+}
+.whatsapp-call p:nth-child(2) {
+  font-weight: bold;
+  color: #ee8824;
+} 
+
+/* .pricelistMKS tbody tr {
+  background: #fff;
+  display: block;
+  width: 100%;
+  clear: both;
+  margin-bottom: 4px !important;
+  box-shadow: 1px 1px 0.7px 0px rgb(92 89 143 / 20%) !important;
+}
+th,td {
+  width: 24.5% !important;
+  display: inline-block;
+}
+.pricelistMKS thead tr {
+  display: block;
+  width: 100%;
+  clear: both;
+} */
+.pricelistMKS table,
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1,
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd,
+table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1,
+table.dataTable.order-column tbody tr>.sorting_1, table.dataTable.order-column tbody tr>.sorting_2, table.dataTable.order-column tbody tr>.sorting_3, table.dataTable.display tbody tr>.sorting_1, table.dataTable.display tbody tr>.sorting_2, table.dataTable.display tbody tr>.sorting_3 {
+  background: #fff;
+}
+.price-list-table {
+  background: #fff;
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 2px 3px 4.7px 0.3px rgb(92 89 143 / 20%) !important;
+}
+.price-list-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.price {
+  text-align: right;
+  width: 100%;
+  padding-right: 15px;
+  font-family: 'Hind', sans-serif;
+}
+.strikethrough {
+  position: relative;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+.price-save {
+  position: absolute;
+  bottom: 8px;
+  left: 9px;
+  background: #ed8824;
+  color: #fff;
+  padding: 0px 5px 0px 5px;
+  border-radius: 3px;
+  font-size: 10px;
+}
+.table>:not(caption)>*>* {
+  border-bottom-width: 0px;
+}
+.carousel-caption {
+  bottom: 0px;
+  top: 40px;
+  position: relative;
+  right: 0px;
+  left: 0px;
+}
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+.card-body {
+  padding: 0px;
+}
+.contact-content {
+  background: #62bf43;
+    padding: 20px;
+    color: #fff;
+}
+.contact-content a {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+.galleryMKS .gallery-item {
+  box-shadow: 0px 2px 8px 0.2px rgb(92 89 143 / 20%) !important;
+}
+.footer {
+  background: #3b443f;
+  border-top: 10px solid #ed8824;
+}
+.mks-info,
+.mks-info a {
+  color: rgb(255 255 255/50%);
+    font-size: 22px;
+    font-weight: 400;
+}
+.mks-info a:hover,
+.mks-info a:focus {
+  color: #fff;
+}
+.footer .mks-info.one p:last-child a {
+  color: rgb(255 255 255);
+}
+.footer-copyright {
+  border-top: 1px solid rgb(237 136 36 / 50%);
+    padding: 15px 0px;
+}
+.footer .social-links h5 {
+  font-size: 22px;
+}
+.footer .social-links ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+footer .social-links ul li {
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgb(98 191 67);
+  border-radius: 100%;
+  background: rgb(59 68 63);
+  margin-right: 12px;
+  margin-bottom: 0;
+  margin-left: 12px;
+}
+footer .social-links .lists-social-links {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .social-links .lists-social-links li a.si-facebook svg {
+  width: 13px;
+  height: auto;
+}
+footer .social-links .lists-social-links li a.si-twitter svg {
+  width: 24px;
+  height: auto;
+}
+footer .social-links .lists-social-links li a.si-instagram svg {
+  width: 22px;
+  height: auto;
+}
+footer .social-links .lists-social-links li:hover {
+  background: rgb(98 191 67);
+}
+footer .social-links .lists-social-links li:hover svg path {
+  fill: #fff;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+}
+}
+@media (max-width: 992px) {
+  .whatsappMKS {
+    background: url('../assets/img/whatsapp-mobile.jpg') center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .whatsappMKS .carousel-inner,
+  .whatsapp-call p {
+    text-align: center !important;
+  }
+  .whatsappMKS hr {
+    width: 100%;
+  }
+  .whatsappMKS .col-lg-5 {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .social-links,
+  .footer .col-md-7,
+  .whatsappMKS .carousel-inner,
+  .whatsapp-call p {
+    text-align: center !important;
+  }
+  .font-size-80,
+  .whatsappMKS-para {
+    font-size: 60px;
+  }
+}
+@media (max-width: 540px) {
+  .ordernowgrocery {
+    position: relative;
+    margin-bottom: 15px;
+    left: 0px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
