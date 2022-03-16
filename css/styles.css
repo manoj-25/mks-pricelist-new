@@ -521,6 +521,48 @@ footer .social-links .lists-social-links li:hover svg path {
     margin-bottom: 15px;
     left: 0px;
   }
+  .free-shipping {
+    font-size: 17px;
+  }
+  .banner-title-sec{
+    font-size: 20px;
+  }
+  .whatsappMKS-list {
+    font-size: 19px;
+    text-align: left;
+  }
+  .banner-bg-img1 {
+    min-height: 585px;
+  }
+  .banner-title {
+    font-size: 46px;
+  }
+  .banner-btn {
+    width: 100%;
+    padding: 5px 10px 5px 10px !important;
+  }
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .font-size-45 {
+    font-size: 36px;
+  }
+  .fs-4 {
+    font-size: calc(0.8rem + .3vw)!important;
+  }
+  .whatsappMKS-title {
+    font-size: 44px;
+  }
+  .whatsappMKS .content-text {
+    padding-top: 10px !important;
+  }
+  .contact-content a {
+    font-size: 36px;
+  }
+  .mks-info, .mks-info a{
+    font-size: 20px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .container {
