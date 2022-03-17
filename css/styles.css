@@ -480,6 +480,14 @@ footer .social-links .lists-social-links li:hover {
 footer .social-links .lists-social-links li:hover svg path {
   fill: #fff;
 }
+.galleryMKS .gallery-card img {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+.img-fluid {
+  width: 100%;
+}
 
 @media (min-width: 1280px) {
   .container {
@@ -516,6 +524,10 @@ footer .social-links .lists-social-links li:hover svg path {
   }
   div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:first-child{
     margin-bottom: 15px;
+  }
+  .container {
+    width: 100%;
+    max-width: 100%;
   }
 }
 @media (max-width: 540px) {
@@ -577,5 +589,8 @@ footer .social-links .lists-social-links li:hover svg path {
   .container {
     width: 100%;
     max-width: 100%;
+  }
+  .whatsapp-call a {
+    font-size: 29px;
   }
 }
