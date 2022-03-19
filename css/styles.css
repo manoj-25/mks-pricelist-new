@@ -529,6 +529,14 @@ footer .social-links .lists-social-links li:hover svg path {
     width: 100%;
     max-width: 100%;
   }
+  div.dataTables_wrapper div.dataTables_filter label {
+    font-size: 20px;
+    text-align: center;
+  }
+  div.dataTables_wrapper div.dataTables_filter input {
+    width: 100%;
+    display: block;
+  }
 }
 @media (max-width: 540px) {
   .ordernowgrocery {
