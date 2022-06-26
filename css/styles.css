@@ -36,6 +36,9 @@ h2 {
 .mt-80 {
   margin-top: 80px;
 }
+.pt-80 {
+  padding-top: 80px;
+}
 .mks-check {
   background-image: url('../assets/img/check.png');
   width: 24px !important;
@@ -192,6 +195,26 @@ select {
 }
 .navbar-brand {
   padding: 0px;
+}
+.bg-light {
+  background: #eef1f3;
+}
+.horizontalMenu .horizontalMenu-list>li>a.offerzone, .horizontalMenu .horizontalMenu-list > li > a.offerzone.active, .navbar-light .navbar-nav .nav-link.offerzone:focus {
+  border: 1px solid;
+  padding: 10px 25px !important;
+  background: #ef8824;
+  color: #fff !important;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.offerzone:hover {
+  background: #eb7d14;
+  color: #fff !important;
+}
+.offerzone img {
+    width: 20px;
+    vertical-align: text-top;
+    padding-right: 2px;
+    margin-right: 4px;
 }
 .navbar-brand img {
   vertical-align: text-top;
@@ -366,15 +389,15 @@ table.dataTable.order-column tbody tr>.sorting_1, table.dataTable.order-column t
   position: absolute;
   content: "";
   left: 0;
-  top: 50%;
+  top: 44%;
   right: 0;
   border-top: 1px solid;
   border-color: inherit;
-  -webkit-transform: rotate(-5deg);
-  -moz-transform: rotate(-5deg);
-  -ms-transform: rotate(-5deg);
-  -o-transform: rotate(-5deg);
-  transform: rotate(-5deg);
+  -webkit-transform: rotate(-18deg);
+  -moz-transform: rotate(-18deg);
+  -ms-transform: rotate(-18deg);
+  -o-transform: rotate(-18deg);
+  transform: rotate(-18deg);
 }
 .price-save {
   position: absolute;
@@ -386,6 +409,13 @@ table.dataTable.order-column tbody tr>.sorting_1, table.dataTable.order-column t
   border-radius: 3px;
   font-size: 10px;
 }
+/* .mks-grocery-list .price-save {
+  bottom: 40px;
+  font-size: 12px;
+}
+.mks-grocery-list .btn {
+  padding: 5px 20px 5px 20px !important;
+} */
 .table>:not(caption)>*>* {
   border-bottom-width: 0px;
 }
@@ -487,6 +517,96 @@ footer .social-links .lists-social-links li:hover svg path {
 }
 .img-fluid {
   width: 100%;
+}
+.new-product img {
+  border-radius: 35px;
+}
+.card-grid .card-grid-lg {
+  height: 560px;
+}
+.card.card-overlay-bottom {
+  overflow: hidden;
+}
+.card.card-overlay-bottom:before {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black));
+  background-image: linear-gradient(180deg, transparent, black);
+  z-index: 1;
+}
+.card-bg-scale {
+  z-index: 99;
+}
+.card .card-img-overlay {
+  z-index: 2;
+}
+.card-grid .card-grid-sm {
+  height: calc(280px - calc(var(--bs-gutter-y) / 2));
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.4rem;
+  box-shadow: 0px 0px 24px 0.3px rgb(92 89 143 / 20%)
+}
+.newarrival-header {
+  font-weight: 600;
+}
+.card-bg-scale::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  -webkit-transition: all 1s !important;
+  transition: all 1s !important;
+  z-index: -2;
+}
+.card-bg-scale:hover::after {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 1s !important;
+  transition: all 1s !important;
+}
+.newarrival .carousel-control-prev,
+.newarrival .carousel-control-next {
+  z-index: 9999;
+}
+.newarrival .carousel-inner .carousel-item.active, .newarrival .carousel-inner .carousel-item-next, .newarrival .carousel-inner .carousel-item-prev {
+  z-index: 999;
+}
+.offerbanner:before {
+  content: "";
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2));
+  z-index: 1;
+}
+.offerbanner {
+  position: relative;
 }
 
 @media (min-width: 1280px) {
