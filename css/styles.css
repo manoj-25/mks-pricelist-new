@@ -535,8 +535,8 @@ footer .social-links .lists-social-links li:hover svg path {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black));
-  background-image: linear-gradient(180deg, transparent, black);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to rgb(0 0 0 / 50%));
+  background-image: linear-gradient(180deg, transparent, rgb(0 0 0 / 50%));
   z-index: 1;
 }
 .card-bg-scale {
@@ -632,6 +632,10 @@ footer .social-links .lists-social-links li:hover svg path {
   }
 }
 @media (max-width: 768px) {
+  .card-grid .card-grid-lg,
+  .card-grid .card-grid-sm {
+    height: 440px;
+  }
   .social-links,
   .footer .col-md-7,
   .whatsappMKS .carousel-inner,
