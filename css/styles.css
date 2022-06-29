@@ -634,7 +634,7 @@ footer .social-links .lists-social-links li:hover svg path {
 @media (max-width: 768px) {
   .card-grid .card-grid-lg,
   .card-grid .card-grid-sm {
-    height: 440px;
+    height: 360px;
   }
   .social-links,
   .footer .col-md-7,
