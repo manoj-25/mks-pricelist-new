@@ -608,7 +608,19 @@ footer .social-links .lists-social-links li:hover svg path {
 .offerbanner {
   position: relative;
 }
-
+td:nth-child(1),
+td:nth-child(2) {
+  color: #ef8824;
+  font-weight: bold;
+}
+/* .table-hover>tbody>tr:hover>td:nth-child(1),
+.table-hover>tbody>tr:hover>td:nth-child(2) {
+  color: #ef8824;
+} */
+body td:nth-child(1),
+body th:nth-child(1) {
+  width: 500px !important;
+}
 @media (min-width: 1280px) {
   .container {
     max-width: 1200px;
