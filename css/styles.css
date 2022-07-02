@@ -621,6 +621,18 @@ body td:nth-child(1),
 body th:nth-child(1) {
   width: 500px !important;
 }
+.pricechecker h3 {
+  font-weight: 500;
+  font-size: 40px;
+  padding: 0px 15px;
+}
+.pricechecker a {
+  font-size: 20px;
+  font-weight: 600;
+}
+.pricechecker p { 
+  font-size: large;
+}
 @media (min-width: 1280px) {
   .container {
     max-width: 1200px;
