@@ -515,6 +515,10 @@ footer .social-links .lists-social-links li:hover svg path {
   height: 250px;
   width: 100%;
 }
+.galleryMKS .gallery-card-offer img {
+  object-fit: cover;
+  width: 100%;
+}
 .img-fluid {
   width: 100%;
 }
@@ -623,7 +627,7 @@ body th:nth-child(1) {
 }
 .pricechecker h3 {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 50px;
   padding: 0px 15px;
 }
 .pricechecker a {
@@ -631,7 +635,7 @@ body th:nth-child(1) {
   font-weight: 600;
 }
 .pricechecker p { 
-  font-size: large;
+  font-size: x-large;
 }
 @media (min-width: 1280px) {
   .container {
